@@ -10,7 +10,7 @@
 }
 
 .tab-space {
-  padding: 70px 0 50px 0px;
+  padding: 70px 0 50px;
 }
 
 .tengah {
@@ -48,7 +48,7 @@
 }
 
 .laporan .btn-xs {
-  padding: 1px 7px;
+  padding: 1px 5px;
 }
 
 .protes img {
@@ -101,6 +101,100 @@ fieldset[disabled] .form-group .form-control {
 
 .input-group .input-group-btn {
   padding: 0 12px;
+}
+
+.card-nav-tabs {
+  margin-top: -10px;
+}
+
+.posting-card {
+  border: solid 1px #e6ecf0;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 100px;
+  width: 82%;
+}
+.posting-card .posting-img {
+  padding-left: 0px;
+}
+.posting-card .posting-img img {
+  border-radius: 4px;
+  height: 100%;
+  max-height: 100px;
+}
+.posting-card .posting-content {
+  padding: 0 30px;
+}
+.posting-card .posting-content h4 {
+  font-weight: 500;
+}
+.posting-card .posting-action {
+  padding-top: 1.2em;
+}
+.posting-card .posting-action .comment {
+  padding: 0;
+}
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+
+.tip-up {
+  top: -25px;
+  /* Same as body margin top + border */
+  left: 170px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-down {
+  bottom: -25px;
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.tip-left {
+  top: -5px;
+  left: -20px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.tip-right {
+  top: 10px;
+  right: -25px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #DADADA;
+  border-radius: 3px;
+  border: 5px solid #ccc;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
 }
 
 /*# sourceMappingURL=style.css.map */
